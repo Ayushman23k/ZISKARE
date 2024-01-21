@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><title>Ziskare</title>
+       <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+  
+   <div class="head1">
+    
+   </div>
+   <div class="body">
+    <center>
+      <table class="table2">
+        <tr><td><d1></d1><br><b2></b2><br><d2></d2></td>
+        <td class="login"><center>
+          <table class="login1" id="login1" >
+            <tr><td><center><hb2 id="sign in"> Sign In </h2></center></td></tr>
+            <tr><td><input type="email" id="User_id" placeholder="user-id"></td></tr>
+            <tr><td><input type="password" id="password" placeholder="password"></td></tr>
+            <tr><td><center><button id="login" class="loginbtn">login</button></center></td></tr>
+            <tr><td><button id="fp1" class="fp">Sign up</button><button class="fp2" id="fp2">Forget Password </button></td></tr>
+          </table>
+          <table class="register" id="register" >
+            <tr><td><center><hb2 id="sign Up"> Sign Up </h2></center></td></tr>
+            <tr><td><input type="email" id="User_id2" placeholder="user-id"></td></tr>
+            <tr><td><input type="password" id="password1" placeholder="password"></td></tr>
+            <tr><td><input type="password" id="password2" placeholder="confirm_password"></td></tr>
+            <tr><td><center><button id="sign_up" class="regbtn">Sign Up</button></center></td></tr>
+          </table>
+          <table class="forget" id="forget" >
+            <tr><td><center><hb2 id="Fog"> Reset Password </h2></center></td></tr>
+            <tr><td><input type="email" id="User_id3" placeholder="user-id"></td></tr>
+            <tr><td><center><button id="for_btn" class="for_btn">Reset Password</button></center></td></tr>
+          </table> 
+        </center>
+        </td>
+      </tr>
+      </table>
+    </table>
+    </center>
+   </div>
+    </body>
+    <script src="script.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCR-0zrxUPCMKjP2fXtHfMfDATu-6UyepA",
+        authDomain: "zisk-2306.firebaseapp.com",
+        projectId: "zisk-2306",
+        storageBucket: "zisk-2306.appspot.com",
+        messagingSenderId: "624769135891",
+        appId: "1:624769135891:web:3d6ea53a05872827af16e6",
+        measurementId: "G-W8M1CM590E"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+</html>
